@@ -1,5 +1,6 @@
 package com.stawbewwy.projectm;
 
+import com.stawbewwy.projectm.block.ModBlocks;
 import com.stawbewwy.projectm.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,6 +30,7 @@ public class ProjectMMod
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

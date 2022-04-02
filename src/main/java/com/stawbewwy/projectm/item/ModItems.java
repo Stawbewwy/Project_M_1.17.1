@@ -1,6 +1,7 @@
 package com.stawbewwy.projectm.item;
 
 import com.stawbewwy.projectm.ProjectMMod;
+import com.stawbewwy.projectm.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
